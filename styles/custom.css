@@ -10,6 +10,16 @@ body {
   background-color: #162952;
 }
 
+.navbar  a{
+  font-family: 'Ubuntu', 'sans-serif';
+  font-weight: '700';
+  font-size: 1.2em;
+}
+
+.navbar-nav{
+  padding-top:9px;
+}
+
 .navbar .container {
   padding-top: 10px;
   padding-bottom: 12px;
@@ -89,4 +99,14 @@ footer {
 
 .city span{
   color:#004696;
+}
+
+.thumb{
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.thumb:hover{
+  opacity:0.9;
 }
