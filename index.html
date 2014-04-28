@@ -43,14 +43,7 @@
           </button>
           <a class="navbar-brand" href="#"><img src="images/eventos-teste.png" width= "55%" title="Eventos"></a>
         </div>
-        <form class="navbar-form navbar-right" action="/busca/" method="get">
-          <div class="form-group">
-            <input type="search" name="search" value="" class="form-control" placeholder="Buscar">
-          </div>
-          <button type="submit" class="btn btn-primary">
-            <span class="glyphicon glyphicon-search"></span>
-          </button>
-        </form>
+
         <div class="navbar-collapse navbar-right collapse">
           <ul class="nav navbar-nav">
             <li><a href="">Cadastre seu evento</a></li>
@@ -59,8 +52,7 @@
         </div><!--/.navbar-collapse -->
       </div>
     </div>
-
-    
+	
     <!-- Main jumbotron for a primary marketing message or call to action     
     <div class="jumbotron">
         <img src="images/banner-puro.png" max-width="925px" width="100%">
@@ -69,9 +61,62 @@
 
 
     <div class="container">
+    
+      <div class="row">
+        <div class="filters col-xs-12 col-md-9">
+      
+          <div class="btn-group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+              Área de Conhecimento <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </div>
 
-    <div class="row">
-    <div class="col-xs-12 event-list">
+          <div class="btn-group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+              Cidade <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </div>
+
+          <div class="btn-group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+              Mês <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="search-area col-xs-6 col-md-3">
+          <form class="form-inline" role="form" action="/busca/" method="get">
+            <div class="input-group">
+              <input type="search" name="search" value="" class="form-control" placeholder="Buscar">
+              <span class="input-group-btn">
+                <button class="btn btn-primary" type="button"><span class="glyphicon glyphicon-search"></span></button>
+              </span>
+            </div>
+          </form>
+        </div>
+     </div> 
+    
+    
+    <div class="event-list">
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-xs-12 col-md-3">
