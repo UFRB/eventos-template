@@ -21,17 +21,10 @@
       <script src="/js/respond.min.js"></script>
     <![endif]-->
 
-  <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet' type='text/css'>
-  <!--<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Oswald:400,300' rel='stylesheet' type='text/css'>-->
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700|Dosis:400,500,700,800' rel='stylesheet' type='text/css'>
   </head>
 
   <body>
-
-<!-- <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container">
-    ...
-  </div>
-</nav> -->
 
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
@@ -41,7 +34,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="images/eventos-teste.png" width= "55%" title="Eventos"></a>
+          <a class="navbar-brand" href="#">Eventos</a>
         </div>
 
         <div class="navbar-collapse navbar-right collapse">
@@ -52,19 +45,16 @@
         </div><!--/.navbar-collapse -->
       </div>
     </div>
-	
+
     <!-- Main jumbotron for a primary marketing message or call to action     
     <div class="jumbotron">
         <img src="images/banner-puro.png" max-width="925px" width="100%">
-           
     </div> -->
 
-
     <div class="container">
-    
       <div class="row">
         <div class="filters col-xs-12 col-md-9">
-      
+
           <div class="btn-group">
             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
               Área de Conhecimento <span class="caret"></span>
@@ -115,119 +105,129 @@
             </ul>
           </div>
 
-        </div>
+        </div><!--/.filters -->
 
         <div class="search-area col-xs-6 col-md-3">
           <form class="form-inline" role="form" action="/busca/" method="get">
             <div class="input-group">
               <input type="search" name="search" value="" class="form-control" placeholder="Buscar">
               <span class="input-group-btn">
-                <button class="btn btn-primary" type="button"><span class="glyphicon glyphicon-search"></span></button>
+                <button class="btn btn-search" type="button"><span class="glyphicon glyphicon-search"></span></button>
               </span>
             </div>
           </form>
-        </div>
-     </div> 
+        </div><!--/.search-area-->
+
+      </div><!--/.row -->
     
     
-    <div class="event-list">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-xs-12 col-md-3">
-          <div class="thumbnail">
-            <a href="#"><img class="thumb" src="http://lorempixel.com/300/200/nature" alt="..."></a>
-            <div class="caption">
-              <h4><a href="#">Seminário Fundamentos Ontológicos</a></h4>
-            </div>
-            <div class="event-details">
-              <div class="date">
-                <span class="glyphicon glyphicon-calendar"></span> 04 - 05 MAI 14
+      <div class="event-list">
+        <div class="row">
+
+          <div class="col-xs-12 col-md-3">
+            <div class="thumbnail">
+              <a href="#"><img class="thumb" src="http://lorempixel.com/300/200/nature" alt="..."></a>
+              <div class="caption">
+                <h4><a href="#">Seminário Fundamentos Ontológicos</a></h4>
               </div>
-              <div class="city">
-                <span class="glyphicon glyphicon-globe"></span> Santo Antônio de Jesus
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-md-3">
-          <div class="thumbnail">
-            <a href="#"><img class="thumb" src="http://lorempixel.com/300/200/nature" alt="..."></a>
-            <div class="caption">
-              <h4><a href="#">Preparando o Oito que queremos</a></h4>
-            </div>
-            <div class="event-details">
-              <div class="date">
-                <span class="glyphicon glyphicon-calendar"></span> 30 AGO - 31 OUT 14
-              </div>
-              <div class="city">
-                <span class="glyphicon glyphicon-globe"></span> Cachoeira
+              <div class="event-details">
+                <div class="date">
+                  <span class="glyphicon glyphicon-calendar"></span> 04 - 05 mai 14
+                </div>
+                <div class="city">
+                  <span class="glyphicon glyphicon-globe"></span> Santo Antônio de Jesus
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-xs-12 col-md-3">
-          <div class="thumbnail">
-            <a href="#"><img class="thumb" src="http://lorempixel.com/300/200/nature" alt="..."></a>
-            <div class="caption">
-              <h4><a href="#">II Semana de Biologia da UFRB</a></h4>
-            </div>
-            <div class="event-details">
-              <div class="date">
-                <span class="glyphicon glyphicon-calendar"></span> 30 SET 14
+
+          <div class="col-xs-12 col-md-3">
+            <div class="thumbnail">
+              <a href="#"><img class="thumb" src="http://lorempixel.com/300/200/nature" alt="..."></a>
+              <div class="caption">
+                <h4><a href="#">Preparando o Oito que queremos</a></h4>
               </div>
-              <div class="city">
-                <span class="glyphicon glyphicon-globe"></span> Amargosa
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-md-3">
-          <div class="thumbnail">
-            <a href="#"><img class="thumb" src="http://lorempixel.com/300/200/nature" alt="..."></a>
-            <div class="caption">
-              <h4><a href="#">II Semana de Biologia da UFRB</a></h4>
-            </div>
-            <div class="event-details">
-              <div class="date">
-                <span class="glyphicon glyphicon-calendar"></span> 30 MAI - 02 JUN 2014
-              </div>
-              <div class="city">
-                <span class="glyphicon glyphicon-globe"></span> Cruz das Almas
+              <div class="event-details">
+                <div class="date">
+                  <span class="glyphicon glyphicon-calendar"></span> 30 ago - 31 out 14
+                </div>
+                <div class="city">
+                  <span class="glyphicon glyphicon-globe"></span> Cachoeira
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-md-3">
-          <div class="thumbnail">
-            <a href="#"><img class="thumb" src="http://lorempixel.com/300/200/nature" alt="..."></a>
-            <div class="caption">
-              <h4><a href="#">II Semana de Biologia da UFRB</a></h4>
-            </div>
-            <div class="event-details">
-              <div class="date">
-                <span class="glyphicon glyphicon-calendar"></span> 30 DEZ - 02 JAN 14
+
+          <div class="col-xs-12 col-md-3">
+            <div class="thumbnail">
+              <a href="#"><img class="thumb" src="http://lorempixel.com/300/200/nature" alt="..."></a>
+              <div class="caption">
+                <h4><a href="#">II Semana de Biologia da UFRB</a></h4>
               </div>
-              <div class="city">
-                <span class="glyphicon glyphicon-globe"></span> Feira de Santana
+              <div class="event-details">
+                <div class="date">
+                  <span class="glyphicon glyphicon-calendar"></span> 30 set 14
+                </div>
+                <div class="city">
+                  <span class="glyphicon glyphicon-globe"></span> Amargosa
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-</div>
+
+          <div class="col-xs-12 col-md-3">
+            <div class="thumbnail">
+              <a href="#"><img class="thumb" src="http://lorempixel.com/300/200/nature" alt="..."></a>
+              <div class="caption">
+                <h4><a href="#">II Semana de Biologia da UFRB</a></h4>
+              </div>
+              <div class="event-details">
+                <div class="date">
+                  <span class="glyphicon glyphicon-calendar"></span> 30 mai - 02 jun 2014
+                </div>
+                <div class="city">
+                  <span class="glyphicon glyphicon-globe"></span> Cruz das Almas
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div><!--/.row -->
+
+        <div class="row">
+
+          <div class="col-xs-12 col-md-3">
+            <div class="thumbnail">
+              <a href="#"><img class="thumb" src="http://lorempixel.com/300/200/nature" alt="..."></a>
+              <div class="caption">
+                <h4><a href="#">II Semana de Biologia da UFRB</a></h4>
+              </div>
+              <div class="event-details">
+                <div class="date">
+                  <span class="glyphicon glyphicon-calendar"></span> 30 dez - 02 jan 14
+                </div>
+                <div class="city">
+                  <span class="glyphicon glyphicon-globe"></span> Feira de Santana
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div><!--/.row -->
+
+      </div><!--/.event-list -->
+    </div><!--/.container -->
+
     <hr>
-    </div><!-- /container -->
-        <footer>
-        <div class=container>
-          <div class="identification">
-            <p>UFRB - Universidade Federal do Recôncavo da Bahia
-            <br/>Rua Rui Barbosa, 710, Centro - Cruz das Almas - Bahia CEP 44.380-000 Fone +55 75 3621-2350</p>
-          </div>
+
+    <footer>
+      <div class=container>
+        <div class="identification">
+          <p>UFRB - Universidade Federal do Recôncavo da Bahia
+          <br>Rua Rui Barbosa, 710, Centro - Cruz das Almas - Bahia CEP 44.380-000 Fone +55 75 3621-2350</p>
         </div>
-      </footer>
+      </div>
+    </footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
