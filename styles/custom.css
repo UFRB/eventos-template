@@ -10,14 +10,14 @@ body {
 }
 
 .navbar.navbar-inverse.navbar-fixed-top {
-  background-color: #1C2130;
+  background-color: #2966bf;
 }
 
-.navbar  a {
+.navbar-nav a {
   font-family: 'Dosis', 'sans-serif';
   font-weight: '800';
   font-size: 1.4em;
-  color: #FFF;
+  color: #FFF !important;
 }
 
 .navbar .container {
@@ -32,6 +32,8 @@ body {
 
 .navbar-brand {
   font-weight: 800;
+  color: #FFF !important;
+  font-size: 2em;
 }
 
 .caption h4 {
@@ -69,7 +71,7 @@ body {
 
 footer {
   height: 100px;
-  background-color: #1C2130;
+  background-color: #2966bf;
   bottom: 0;
   position: relative;
   width: 100%;
