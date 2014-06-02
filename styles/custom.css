@@ -83,8 +83,12 @@ footer {
   color: #fff;
 }
 
+.thumbnail {
+  padding: 0px !important;
+}
+
 .event-details {
-  background: none repeat scroll 0% 0% rgb(240, 240, 240);
+  background: none repeat scroll 0% 0% #e2f2fa;
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -117,6 +121,7 @@ footer {
   display: block;
   height: auto;
   max-width: 100%;
+  border-radius: 3px 3px 0 0;
 }
 
 .thumb:hover {
@@ -124,7 +129,15 @@ footer {
 }
 
 .btn-search {
-  background-color: #1C2130;
+  background-color: #2966bf;
+}
+
+.dropdown-toggle:hover {
+  background-color: #e2f2fa;
+}
+
+.dropdown-toggle:active {
+  background-color: #e2f2fa;
 }
 
 .search-area span {
