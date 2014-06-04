@@ -70,17 +70,26 @@ body {
 }*/
 
 footer {
-  height: 100px;
-  background-color: #2966bf;
+  height: 120px;
   bottom: 0;
+  background-color: #2966bf;
   position: relative;
   width: 100%;
+  color: #fff
+}
+
+footer a {
+  color: #fff
 }
 
 .identification {
   padding-top: 30px;
   text-align: center;
-  color: #fff;
+}
+
+.credits {
+  padding-top: 0px;
+  text-align: center;
 }
 
 .thumbnail {
