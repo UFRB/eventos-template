@@ -130,18 +130,15 @@ body {
 /* event-detail page rules */
 .event-description {
   padding-top:10px;
-}
+} 
 
 .event-description p {
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
-.event-sidebar {
+.event-details-bar {
   font-size: 1.4em;
-}
-
-.event-date, .event-register, .event-location {
-  padding: 10px 0;
+  padding-top: 15px;
 }
 
 .event-register p{
@@ -151,6 +148,14 @@ body {
 .event-register-deadline {
   font-size: 0.8em;
   text-align: right;
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0 0 4px 4px;
+    padding: 10px;
 }
 
 /* footer rules */
