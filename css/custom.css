@@ -148,11 +148,11 @@ body {
   font-size: 1em;
 }
 
-.event-description {
+.tab-content {
   padding-top:10px;
 } 
 
-.event-description p {
+.tab-content p {
   font-size: 1.2em;
 }
 
